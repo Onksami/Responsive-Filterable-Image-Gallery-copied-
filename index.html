@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name: “viewport” content: “width =divice-width, initial-scale=1.0”>
+        <meta charset = “utf-8”>
+        <title>Responsive Filterable Image Gallery</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <nav>
+                <div class="items">
+                    <span class="item active" data-name="all">All</span>
+                    <span class="item" data-name="bag">Bag</span>
+                    <span class="item" data-name="shoe">Shoe</span>
+                    <span class="item" data-name="camera">Camera</span>
+                    <span class="item" data-name="watch">Watch</span>
+                    <span class="item" data-name="headphone">Headphone</span>
+                </div>
+            </nav>
+
+            <!-- filter images -->
+            <div class="gallery">
+                <div class="image" data-name="bag"><span><img src="images/bag1.jpg" alt="Bag"></span></div>
+                <div class="image" data-name="bag"><span><img src="images/bag2.png" alt="Bag"></span></div>
+                <div class="image" data-name="watch"><span><img src="images/watch.png" alt="Watch"></span></div>
+                <div class="image" data-name="shoe"><span><img src="images/shoe1.png" alt="Shoe"></span></div>
+                <div class="image" data-name="camera"><span><img src="images/camera.png" alt="Camera"></span></div>
+                <div class="image" data-name="headphone"><span><img src="images/headphone1.jpg" alt="Headphone"></span></div>
+                <div class="image" data-name="headphone"><span><img src="images/headphone2.jpg" alt="Headphone"></span></div>
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
